@@ -1,0 +1,163 @@
+body {
+    font-family: Helvetica Neue, Arial;
+    font-size: 19px;
+    background-image: url(cool-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    position:absolute;
+    top:0%;
+    left:20%;
+    color:whitesmoke;
+   
+}
+h2{
+    position: absolute;
+    top:15%;
+    left:42%;
+    font-size:40;
+    color:whitesmoke;
+}
+.login-box{
+    position: absolute;
+    top:40%;
+    left:36%;
+    background-color: darkslategray;
+    opacity:0.8;
+    padding:30px;
+    color: white;
+    
+}
+.username{
+    padding: 5px 0px 5px 0px;
+    margin: 0px 55px 3px ;
+    color:black;
+    opacity:1;
+}
+    .username:hover{
+        animation-name: username;
+        animation-duration: 100ms;
+        animation-fill-mode:forwards;
+    }
+        @keyframes username{
+            100%{box-shadow:0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0,0,0,0.23);
+                 
+             }
+        }
+.date{
+    padding: 5px 0px 5px 0px;
+    margin-bottom:6px;
+    margin-top: 3px;
+    opacity:1;
+}
+.email-address{
+    padding: 5px 0px 5px 0px;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 3px;
+    margin-bottom:3px;
+    opacity:1;
+}
+    .email-address:hover{
+        animation-name:email-address ;
+        animation-duration: 100ms;
+        animation-fill-mode:forwards;
+    }
+        @keyframes email-address{
+            100%{box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                 
+             }
+        }
+.address{
+    padding: 5px 10px 40px 0px;
+    width:200px;
+    margin-top: 3px;
+    margin-bottom:3px;
+    margin-left: 37px;
+    opacity:1;
+}
+    .address:hover{
+        animation-name:address ;
+        animation-duration: 100ms;
+        animation-fill-mode:forwards;
+    }
+        @keyframes address{
+            100%{box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                 
+             }
+        }
+.create-password{
+    padding: 5px 0px 5px 0px;
+    width:200px;
+    margin-top: 7px;
+    margin-bottom:3px;
+    margin-left: 7px;
+    opacity:1;
+}
+    .create-password:hover{
+        animation-name:password ;
+        animation-duration: 100ms;
+        animation-fill-mode:forwards;
+    }
+        @keyframes password{
+            100%{box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                 
+             }
+        }
+.confirm-password{
+    padding: 5px 0px 5px 0px;
+    width:200px;
+    margin-top: 7px;
+    margin-bottom:3px;
+    margin-left: -2px;
+    opacity:1;
+}
+    .confirm-password:hover{
+            animation-name:password ;
+            animation-duration: 100ms;
+            animation-fill-mode:forwards;
+        }
+        @keyframes password{
+                100%{box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+                 }
+            }
+.submit{
+    padding:4px 50px;
+    justify-self: center;
+    background-color:;
+    width: 100%;
+    border: 2px solid aqua;
+    opacity:1;
+}
+    .submit:hover{
+        animation-name: button;
+        animation-duration: 500ms;
+        animation-fill-mode:forwards;
+    }
+        @keyframes button{
+            100%{background-color: aqua;
+             }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
